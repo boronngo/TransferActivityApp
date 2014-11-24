@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="boro.life_cloud.ht.sfc.keio.ac.jp.orf2014">
+
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_lifecloud_transfer"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.TransferActivityService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.SettingsActivity"></activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+
+</manifest>

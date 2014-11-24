@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="マナーモード">
+
+        <CheckBoxPreference
+            android:key="is_auto_ringer_mode"
+            android:title="マナーモードの自動切り替え"
+            android:summary="移動手段ごとにマナーモードを切り替えます。"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="ringer_mode_walk"
+            android:title="@string/transfer_activity_walk"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+        <ListPreference
+            android:key="ringer_mode_run"
+            android:title="@string/transfer_activity_run"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+        <ListPreference
+            android:key="ringer_mode_bicycle"
+            android:title="@string/transfer_activity_bicycle"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+        <ListPreference
+            android:key="ringer_mode_train"
+            android:title="@string/transfer_activity_train"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+        <ListPreference
+            android:key="ringer_mode_bus"
+            android:title="@string/transfer_activity_bus"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+        <ListPreference
+            android:key="ringer_mode_car"
+            android:title="@string/transfer_activity_car"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+        <ListPreference
+            android:key="ringer_mode_other"
+            android:title="@string/transfer_activity_other"
+            android:entries="@array/ringer_mode_key_array"
+            android:entryValues="@array/ringer_mode_value_array" />
+
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

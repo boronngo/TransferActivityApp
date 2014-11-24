@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ringer_mode_key_array">
+        <item>通常</item>
+        <item>マナーモード</item>
+        <item>サイレントマナー</item>
+    </string-array>
+    <string-array name="ringer_mode_value_array">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+</resources>

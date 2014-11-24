@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="20dp">
+
+            <com.echo.holographlibrary.PieGraph
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pie_graph"
+                android:layout_gravity="center_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Running"
+                    android:id="@+id/transferTextView"
+                    android:layout_toRightOf="@+id/transferImageView"
+                    android:layout_centerVertical="true" />
+
+                <ImageView
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:id="@+id/transferImageView"
+                    android:src="@drawable/run"
+                    android:padding="10dp" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/history_layout">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/transferImageView0"
+                android:src="@drawable/bicycle"
+                android:alpha="0"
+                android:tag="image"
+                android:baselineAlignBottom="false"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/transferImageView1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/transferImageView1"
+                android:src="@drawable/bus"
+                android:tag="image1"
+                android:alpha="0"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/transferImageView2"
+
+                android:layout_margin="10dp" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/transferImageView2"
+                android:src="@drawable/run"
+                android:tag="image2"
+                android:alpha="0"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/transferImageView3"
+                android:layout_margin="10dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/transferImageView3"
+                android:src="@drawable/walk"
+                android:tag="image3"
+                android:alpha="0"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp" />
+            <!--<ImageView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/transferImageView4"-->
+                <!--android:src="@drawable/car"-->
+                <!--android:tag="image4"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_toRightOf="@+id/transferImageView3"-->
+                <!--android:layout_margin="10dp" />-->
+            <!--<ImageView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/transferImageView5"-->
+                <!--android:src="@drawable/bicycle"-->
+                <!--android:tag="image5"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_toRightOf="@+id/transferImageView4"-->
+                <!--android:layout_margin="10dp" />-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <boro.life_cloud.ht.sfc.keio.ac.jp.orf2014.RingerModeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ringer_mode_view"
+        android:layout_gravity="center" />
+
+</FrameLayout>

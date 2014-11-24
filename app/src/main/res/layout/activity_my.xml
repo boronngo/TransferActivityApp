@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MyActivity">
+
+    <boro.life_cloud.ht.sfc.keio.ac.jp.orf2014.RingerModeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ringer_mode_view1"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

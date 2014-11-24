@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity">
+    <item
+        android:id="@+id/start_service"
+        android:title="Start Service"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/stop_service"
+        android:title="Stop Service"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/music_service"-->
+        <!--android:title="Music Service"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/bluetooth_server"-->
+        <!--android:title="Bluetooth Server"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/bluetooth_client"-->
+        <!--android:title="Bluetooth Client"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never" />-->
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">移動手段判定アプリ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ringer_mode_notice">RingerModeNoticeActivity</string>
+    <string name="title_activity_setting">Setting</string>
+
+    <string name="transfer_activity_bicycle">自転車</string>
+    <string name="transfer_activity_bus">バス</string>
+    <string name="transfer_activity_car">自動車</string>
+    <string name="transfer_activity_other">その他</string>
+    <string name="transfer_activity_run">ランニング</string>
+    <string name="transfer_activity_train">電車</string>
+    <string name="transfer_activity_walk">歩行</string>
+</resources>
